@@ -32,3 +32,12 @@ dim(x3)
 # Now remove lines from rainfall.csv, push to github, and reload:
 x4 = read.csv(url.public)
 dim(x4)
+  # Did not update...not that it takes 5 minutes to update the raw files.
+
+# Created a simple file x, y 1:10
+url.simple = "https://raw.githubusercontent.com/tbiggsgithub/githubR_howto/main/data/simple.csv"
+y = read.csv(url.simple)
+  # Works.
+
+# Now change the file, push to github.
+
