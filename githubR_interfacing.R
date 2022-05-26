@@ -21,3 +21,8 @@ x2 = read.csv(tbiggsurl.postupdate2)
 dim(x2)
 
 #  Seems like the token renews every time.  May be difficult to use private repositories to share data.
+
+# Made repo public, lets' try now:
+url.public = "https://raw.githubusercontent.com/tbiggsgithub/githubR_howto/main/data/rainfall_chirps_properties_LotIDfin_1981_2019.csv"
+x3 = read.csv(url.public)
+dim(x3)
