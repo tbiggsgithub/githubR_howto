@@ -26,3 +26,9 @@ dim(x2)
 url.public = "https://raw.githubusercontent.com/tbiggsgithub/githubR_howto/main/data/rainfall_chirps_properties_LotIDfin_1981_2019.csv"
 x3 = read.csv(url.public)
 dim(x3)
+# 397  469
+#  correct.
+
+# Now remove lines from rainfall.csv, push to github, and reload:
+x4 = read.csv(url.public)
+dim(x4)
